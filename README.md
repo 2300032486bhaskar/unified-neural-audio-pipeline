@@ -136,4 +136,17 @@ Speaker extraction
 
 Speech recognition
 
+
 Backend service
+Pipeline:
+Input Audio
+   ↓
+Demucs Separation
+   ↓
+Speaker Embedding Matching
+   ↓
+Target Voice Extraction
+   ↓
+Whisper ASR
+   ↓
+API Output
